@@ -1,0 +1,3 @@
+1. Get the application URL by running these commands:
+kubectl -n demoapi port-forward svc/demoapi-svc 8080:5000
+open url: http://localhost:8080/swagger
